@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo nav-link">
+          <img src="img/logonobg.png" alt="Logo MDP" />
+        </a>
+        <button class="cart-btn" aria-label="Carrito de Comparas">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#about" class="nav-link selected">¿Quiénes somos?</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#services" class="nav-link">Servicios</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#products" class="nav-link">Productos</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#contact" class="nav-link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="home">
+        <!-- Slider main container -->
+        <div class="swiper swiperMasterHome">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="swiper-zoom-container">
+                <img
+                  class="img"
+                  src="https://i0.wp.com/www.elblogdeuma.com/wp-content/uploads/2023/05/camas-2023-05-05T133010.897.jpg?fit=960%2C540&ssl=1&resize=1280%2C720"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://www.diarioveterinario.com/images/showid2/2251488?w=900"
+                alt=""
+                class="img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://cdn.shopify.com/s/files/1/1004/3654/articles/blog_juguetes.jpg?v=1662703924"
+                alt=""
+                class="img"
+              />
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+      <div id="about" class="about">
+        <div class="tituloSeccion">¿Quiénes somos?</div>
+        <div class="aboutContent">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+            nostrum. Distinctio quas eum dolorum ab vero nostrum necessitatibus
+            rem impedit repellat sunt, consectetur ad repudiandae recusandae
+            pariatur reiciendis odit sapiente iusto sed est rerum commodi
+            molestias? Accusantium adipisci suscipit fugit laboriosam in est
+            doloribus optio nulla, nihil repellendus eius illo?
+          </p>
+        </div>
+      </div>
+      <div id="services" class="services">
+        <div class="tituloSeccion">Servicios</div>
+        <div class="servicesContent">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quas, mollitia voluptates esse tenetur, porro quo pariatur iusto
+            officiis aperiam corrupti harum commodi tempore accusamus iure
+            itaque dicta. Accusamus ipsum hic pariatur quis iste ipsa maiores
+            commodi aspernatur. Reiciendis eveniet eligendi rem labore, dicta
+            autem doloremque exercitationem nulla velit aspernatur enim adipisci
+            fugit a nesciunt aperiam mollitia quaerat deserunt modi laudantium
+            sequi quis quo! Fuga ut pariatur delectus vitae aliquid! Inventore
+            ipsa ea eum, dolores optio ab accusamus at libero ad maxime.
+            Ducimus, quisquam assumenda incidunt accusamus aliquam vero autem
+            excepturi, vitae enim quia dolor nostrum, quaerat distinctio eveniet
+            consectetur!
+          </p>
+
+          <!-- Slider main container -->
+          <div class="swiper swiperMasterServices">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="https://cdn.sanity.io/images/0vv8moc6/dvm360/69d773c39a0463fd04d7c1137764c1cbff969e06-450x278.jpg"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Citas</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>Agenda con nosotros el servicio de tu preferencia.</p>
+                    <button class="btnVermas">Ver más</button>
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://learn.uvm.edu/nb_wordpress/wp-content/uploads/Post-Baccalaureate-Veterinarian-DVM-1-1200x800.jpeg"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Veterinaria</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>
+                      Trae a tu mascota con nuestra veterinaria y asegurate de
+                      que su salud es la de un cachorro.
+                    </p>
+                    <button class="btnVermas">Ver más</button>
+                    <br />
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://www.roverdoneover.net/wp-content/uploads/2023/01/Inside4.jpeg"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Grooming a domicilio</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>
+                      Nuestra unidad movil esta equipada con todo lo que tu
+                      mascota necesita para un agradable baño, corte de pelo y
+                      otras opciones.
+                    </p>
+                    <button class="btnVermas">Ver más</button>
+                    <br />
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://images.ctfassets.net/sfnkq8lmu5d7/2g3AvjoZT6VBMQCyx3uOGO/7aa9a31464e2ee1294f117f01e57a12e/GoldenDoodle_shutterstock_Olena_Yakobchuk_1000x750.jpg?w=1000&h=750&fl=progressive&q=70&fm=jpg"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Grooming</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>
+                      Trae a tu mascota para la mejor atencion y cuidados
+                      durante su grooming y quedara mejor que nunca.
+                    </p>
+                    <button class="btnVermas">Ver más</button>
+                    <br />
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+      <div id="products" class="products">
+        <div class="tituloSeccion">Productos</div>
+        <div class="productsContent">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            tenetur eaque enim non consequatur nam necessitatibus rerum, nostrum
+            totam earum ad sit.
+          </p>
+          <!-- Slider main container -->
+          <div class="swiper swiperMasterProducts">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="https://m.media-amazon.com/images/I/61RRXjUh3uL._AC_SL1500_.jpg"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Comedero</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>Agenda con nosotros el servicio de tu preferencia.</p>
+                    <button class="btnCarrito">Añadir al carrito</button>
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://m.media-amazon.com/images/I/81B9k9nsg4L._AC_SL1500_.jpg"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Juguetes</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>
+                      Trae a tu mascota con nuestra veterinaria y asegurate de
+                      que su salud es la de un cachorro.
+                    </p>
+                    <button class="btnCarrito">Añadir al carrito</button>
+                    <br />
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://s.alicdn.com/@sc04/kf/Hd1f6fd3e2502414b9a69e1ec67e36861A.jpg_300x300.jpg"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Lava Patas</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>Agenda con nosotros el servicio de tu preferencia.</p>
+                    <button class="btnCarrito">Añadir al carrito</button>
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://s.alicdn.com/@sc04/kf/Aefb841f8f0f244bd806d496ee84ae00aV.jpg_300x300.jpg"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Kit de Grooming</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>
+                      Trae a tu mascota con nuestra veterinaria y asegurate de
+                      que su salud es la de un cachorro.
+                    </p>
+                    <button class="btnCarrito">Añadir al carrito</button>
+                    <br />
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0109/2596/5374/products/cama-antiansiedad-mascotas-main_800x.jpg?v=1592496741"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Cama antiansiedad</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>Agenda con nosotros el servicio de tu preferencia.</p>
+                    <button class="btnCarrito">Añadir al carrito</button>
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://s.alicdn.com/@sc04/kf/H2737097322ea40b1b7ffae4ed74829bch.jpg_280x280.jpg"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Casco para gato</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>
+                      Trae a tu mascota con nuestra veterinaria y asegurate de
+                      que su salud es la de un cachorro.
+                    </p>
+                    <button class="btnCarrito">Añadir al carrito</button>
+                    <br />
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://cdn-fsly.yottaa.net/609426b74f1bbfff95ac5a83/es.pandora.net/v~4b.18/dw/image/v2/BFCR_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw3a0e3078/productimages/Gift%20Sets/B801335_800x800px.jpg?sw=900&sh=900&sm=fit&sfrm=jpg&bgcolor=F5F5F5&yocs=9_e_"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Collar Variedad</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>
+                      Nuestra unidad movil esta equipada con todo lo que tu
+                      mascota necesita para un agradable baño, corte de pelo y
+                      otras opciones.
+                    </p>
+                    <button class="btnCarrito">Añadir al carrito</button>
+                    <br />
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://animalstar.es/180-home_default/custom-diet-pienso-perro-adulto-ternera-y-patata-6kg-dentastix.jpg"
+                  alt=""
+                />
+                <div class="cardDescripcion">
+                  <div class="cardTitulo">
+                    <h4>Concentrado Variedad</h4>
+                  </div>
+                  <div class="cardText">
+                    <p>
+                      Trae a tu mascota para la mejor atencion y cuidados
+                      durante su grooming y quedara mejor que nunca.
+                    </p>
+                    <button class="btnCarrito">Añadir al carrito</button>
+                    <br />
+                  </div>
+
+                  <a href="#"></a>
+                </div>
+              </div>
+            </div>
+            <div class="popup">
+              <div class="popup-content">
+                <img src="" alt="" class="popup-image" />
+                <p class="popup-description"></p>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="contact">
+        <div class="tituloSeccion">Contacto</div>
+        <div class="contactContent">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            tenetur eaque enim non consequatur nam necessitatibus rerum, nostrum
+            totam earum ad sit. Exercitationem quod minima voluptatibus
+            voluptatem repellat iusto error obcaecati incidunt qui dolorum aut
+            id, deleniti laudantium cumque corrupti quae, alias ea officiis amet
+            ipsam natus repudiandae sint eveniet perspiciatis. Ab quo saepe
+            porro sapiente, adipisci asperiores? Id officiis similique
+            perferendis accusantium commodi. Nemo, aperiam eaque! Ullam
+            explicabo, eius consequatur voluptates, earum labore officiis rem
+            voluptatem, culpa mollitia sint itaque repudiandae. Illum doloremque
+            tenetur quas nemo tempora minus incidunt magnam distinctio qui,
+            officia totam aliquam aut, ipsum eum recusandae.
+          </p>
+        </div>
+      </div>
+      <div class="popupMessage">
+        Funcionalidad aún en desarrollo, toca el botón nuevamente para ocultar.
+      </div>
+      <a href="cart.html">
+        <button class="floating-btn">
+          <img src="img/cart-ico.png" alt="Carrito" />
+        </button>
+      </a>
+    </main>
+
+    <footer class="footer">
+      <div>Footer</div>
+      <div class="footerContent">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          tenetur eaque enim non consequatur nam necessitatibus rerum, nostrum
+          totam earum ad sit. Exercitationem quod minima voluptatibus voluptatem
+          repellat iusto error obcaecati incidunt qui dolorum aut id, deleniti
+          laudantium cumque corrupti quae, alias ea officiis amet ipsam natus
+          repudiandae sint eveniet perspiciatis. Ab quo saepe porro sapiente,
+          adipisci asperiores? Id officiis similique perferendis accusantium
+          commodi. Nemo, aperiam eaque! Ullam explicabo, eius consequatur
+          voluptates, earum labore officiis rem voluptatem, culpa mollitia sint
+          itaque repudiandae. Illum doloremque tenetur quas nemo tempora minus
+          incidunt magnam distinctio qui, officia totam aliquam aut, ipsum eum
+          recusandae.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </body>
+</html>
